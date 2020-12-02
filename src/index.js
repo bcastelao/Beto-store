@@ -3,6 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+/*
+let App =() => {
+  return(
+
+  )
+}
+*/
+/*let App = () => <h1 
+                  style={{color:'#ff0000', fontSize:"20px"}} 
+                  className="title"
+                  onClick={()=>{console.log('Hola Mundo')}}>
+                    Hola Que tal
+                </h1>*/
 
 ReactDOM.render(
   <React.StrictMode>

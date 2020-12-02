@@ -1,0 +1,75 @@
+header {
+    width: 100%;
+    float: left;
+    position: relative;
+    /* background-image: linear-gradient(to bottom, #efaa64, #efaa64, #ff7171 86%); */
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.04), 0 3px 5px 1px rgba(0, 0, 0, 0.05), 0 8px 10px 1px rgba(0, 0, 0, 0);
+}
+.Menu{
+   
+}
+.container{
+    max-width: 100%;
+    padding: 0 42px 0px 42px;
+    margin: 0 auto;
+}
+.logo {
+    max-width: 60px;
+    float: left;
+    margin-top: 15px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.Menu-container{
+float: right;
+}
+.Menu-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.Menu-container ul li {
+    float: left;
+    position: relative;
+    margin-top: 45px;
+}
+.Menu-container ul li a span {
+    width: 0.1%;
+    height: 3px;
+    background-image: linear-gradient(to bottom, #000000, #222222, #666666 86%);
+    float: left;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.Menu-container ul li a:hover span {
+    width: 100%;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+}
+.Menu-container ul li a {
+    text-decoration: none;
+    padding: 10px 28px;
+    position: relative;
+    color: #222222;
+    text-transform: uppercase;
+}
+.Menu-container ul li a:hover{}
+.my-transition {
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease; 
+}
+h1 {
+    text-align: center;
+    margin-top: 45px;
+    display: inline-block;
+    width: 100%;
+    font-size: 36px;
+    font-weight: 600;
+}
