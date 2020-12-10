@@ -8,11 +8,6 @@ header {
 .Menu{
    
 }
-.container{
-    max-width: 100%;
-    padding: 0 42px 0px 42px;
-    margin: 0 auto;
-}
 .logo {
     max-width: 60px;
     float: left;
@@ -23,17 +18,16 @@ header {
 .Menu-container{
 float: right;
 }
-.Menu-container ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.Menu-container ul li {
+
+li.nav-item{
     float: left;
     position: relative;
-    margin-top: 45px;
+    margin-top: 25px;
 }
-.Menu-container ul li a span {
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    float: right;
+}
+.navbar-light .navbar-nav .nav-link span {
     width: 0.1%;
     height: 3px;
     background-image: linear-gradient(to bottom, #000000, #222222, #666666 86%);
@@ -42,7 +36,7 @@ float: right;
     left: 0;
     position: absolute;
 }
-.Menu-container ul li a:hover span {
+.navbar-light .navbar-nav .nav-link:hover span {
     width: 100%;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -50,7 +44,7 @@ float: right;
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
 }
-.Menu-container ul li a {
+.navbar-light .navbar-nav .nav-link {
     text-decoration: none;
     padding: 10px 28px;
     position: relative;

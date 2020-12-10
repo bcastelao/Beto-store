@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
     <>
     <NavBar/>
-    <h1>Titulo de la Tienda</h1>
+    <ItemListContainer titulo="Titulo de la Tienda enviado por props"/>
+
     </>
   );
 }
