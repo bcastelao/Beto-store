@@ -52,13 +52,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
     text-transform: uppercase;
 }
 .Menu-container ul li a:hover{}
-.my-transition {
-    transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease; 
-}
 h1 {
     text-align: center;
     margin-top: 45px;
@@ -66,4 +59,7 @@ h1 {
     width: 100%;
     font-size: 36px;
     font-weight: 600;
+}
+.bg-light {
+    background-color: #ffffff!important;
 }
