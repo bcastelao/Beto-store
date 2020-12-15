@@ -1,13 +1,28 @@
 import React from 'react';
 import './NavBar.css';
-import logo from '../logo.png';
-import CartWidget from './CartWidget';
-function NavBar() {
+import logo from '../../logo.png';
+import CartWidget from '../CartWidget/CartWidget';
+const NavBar = () => {
+//function NavBar() {
+/*
+Para hacer algo similar con las props en componentes tipo funcion
+useState es un hook 
+const React.useState()
+const valor=React.useState("test");
+const setTitulo= valor[1]
+const titulo = valor[0] ===> todo en una linea seria:
+const [titulo, setTitulo] = React.useState("test")
+*/  
+    const [items, setItems] = React.useState(0)
+    const cambiarItem = () =>{
+        setItems(items+1)
+    }
     return (
+      <>
       <header>
       <div className="container"> 
       <a href={"https://www.globant.com/"}><img src={logo} alt={"Hola"} className="logo" /></a> 
-      < CartWidget/>
+      < CartWidget itemCount={items}/>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -32,6 +47,8 @@ function NavBar() {
         
       </div>
       </header>
+      <button className="CartCTA my-transition"  onClick={cambiarItem}>Agregar Al Carrito</button>
+      </>
     );
   }
   

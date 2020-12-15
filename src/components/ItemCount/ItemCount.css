@@ -1,0 +1,46 @@
+.ItemCount {
+    width: 15%;
+    position: relative;
+    text-align: center;
+    margin: 15px;
+    float: left;
+}
+.ItemCount p {
+    margin-top: 45px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #000;
+}
+.ItemCount p span {
+    margin-top: 5px;
+    display: inherit;
+}
+.lessCta{
+    float: left;
+    background-color: #000000;
+    border: 0px solid #000000;
+    color: #ffffff;
+    font-size: 24px;
+}
+.lessCta:hover{
+    border-right: 1px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+}
+.plusCta{
+    float: right;
+    background-color: #000000;
+    border: 0px solid #000000;
+    color: #ffffff;
+    font-size: 24px;
+}
+.plusCta:hover{
+    border-left: 1px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+}
