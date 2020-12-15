@@ -30,10 +30,14 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
       <>
       <NavBar/>
       <ItemListContainer titulo={this.state.titulo}/>
-      <ItemCount stock={5} initial={1} />
-      <ItemCount stock={8} initial={1} />
-      <ItemCount stock={3} initial={1} />
-      <ItemCount stock={3} initial={1} />
+      <section>
+        <div className="container">
+          <ItemCount stock={5} initial={1} />
+          <ItemCount stock={8} initial={1} />
+          <ItemCount stock={3} initial={1} />
+          <ItemCount stock={3} initial={1} />
+        </div>
+      </section>
       </>
     );
   }  

@@ -14,7 +14,7 @@ import './ItemCount.css';
       }
     return (
       <>
-          <div className="ItemCount">
+          <div className="ItemCount col-lg-3 col-md-6 col-sm-12">
              <p>
              <button className="lessCta my-transition" onClick={restarItems}>-</button>
              <span>{iteminit}</span>

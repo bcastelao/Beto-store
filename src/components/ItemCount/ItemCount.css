@@ -1,9 +1,8 @@
 .ItemCount {
-    width: 15%;
     position: relative;
-    text-align: center;
-    margin: 15px;
     float: left;
+    text-align: center;
+    margin: 15px auto;
 }
 .ItemCount p {
     margin-top: 45px;
