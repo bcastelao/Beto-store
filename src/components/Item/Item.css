@@ -1,0 +1,55 @@
+.Item {
+    float: left;
+    position: relative;
+    margin-top: 50px;
+}
+.Item:hover .ItemDesc{
+    display: block;
+}
+
+.Item h2 {
+    margin: 0;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    min-height: 78px;
+    font-size: 1.5rem;
+    padding: 8px;
+}
+.Item img {
+    width: 100%;
+}
+.ItemDesc {
+    display: none; 
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: calc(100% - 30px);
+    background-color: #000000;
+    height: calc(100% - 120px);
+}
+.ItemDesc p {
+    color: #ffffff;
+    margin: 15px 5px;
+    text-align: left;
+    font-size: 0.95rem;
+}
+.ItemDesc span {
+    width: 100%;
+    text-align: right;
+    float: left;
+    font-size: 2rem;
+    color: #ffffff;
+}
+.ItemDesc button.CartCTA{
+    border: 1px solid #ffffff;
+    padding: 8px 50px;
+    color: #ffffff;
+}
+.ItemDesc button.CartCTA:hover{
+    border: 1px solid #ffffff;
+    padding: 8px 50px;
+    color: #000000;
+    background-color: #ffffff;
+}
