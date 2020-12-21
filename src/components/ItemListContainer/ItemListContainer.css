@@ -1,0 +1,6 @@
+section.ItemListContainer {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 30px auto;
+}

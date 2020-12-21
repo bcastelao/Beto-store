@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import ItemCount from './components/ItemCount/ItemCount';
+
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 //function App() {
@@ -30,14 +30,6 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
       <>
       <NavBar/>
       <ItemListContainer titulo={this.state.titulo}/>
-      <section>
-        <div className="container">
-          <ItemCount stock={5} initial={1} />
-          <ItemCount stock={8} initial={1} />
-          <ItemCount stock={3} initial={1} />
-          <ItemCount stock={3} initial={1} />
-        </div>
-      </section>
       </>
     );
   }  

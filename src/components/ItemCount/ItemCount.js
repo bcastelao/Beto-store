@@ -14,14 +14,14 @@ import './ItemCount.css';
       }
     return (
       <>
-          <div className="ItemCount col-lg-3 col-md-6 col-sm-12">
+          <div className="ItemCount col-12">
              <p>
              <button className="lessCta my-transition" onClick={restarItems}>-</button>
              <span>{iteminit}</span>
              <button className="plusCta my-transition" onClick={sumarItem}>+</button>
              </p>
 
-          <button class="CartCTA my-transition">Agregar Al Carrito</button>
+          <button className="CartCTA my-transition">Agregar Al Carrito</button>
           </div>
       </>
     );
