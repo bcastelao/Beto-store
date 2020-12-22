@@ -25,10 +25,10 @@ export const itemDetails = [
        },
        {
           "id":"P4",
-          "title":"Los Croods: Una nueva era",
-          "description":"Después de salir de su cueva, los Croods se encuentran con su mayor amenaza desde que se fueron",
+          "title":"A Rough Draft",
+          "description":"La identidad de Kirill ha sido eliminada. Borrado de los recuerdos de todos aquellos que le rodean, Kirill se ve forzado a ejercer de guardián de una puerta que comunica mundos paralelos. ",
           "price":25.4,
-          "pictureURL":"https://tekilaz.co/wp-content/uploads/2020/12/los-croods-una-nueva-era-108514-poster-202x300.jpg",
+          "pictureURL":"https://tekilaz.co/wp-content/uploads/2020/12/a-rough-draft-108611-poster-193x288.jpg",
           "stock":5
        }
     ]
