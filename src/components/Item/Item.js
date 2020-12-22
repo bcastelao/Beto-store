@@ -2,10 +2,10 @@ import React from 'react';
 import './Item.css';
 //function ItemListContainer(props) {
 import ItemCount from '../ItemCount/ItemCount';
-    const Item = ({key,id,title,description,price,pictureURL,stock}) => {
+    const Item = ({id,title,description,price,pictureURL,stock}) => {
         let Photo="https://tekilaz.co/wp-content/uploads/2020/12/MV5BYzZlYTEyNmItMmM2YS00ZjQxLWFhNmEtY2FkYWExZTVmYWU3XkEyXkFqcGdeQXVyMTM2MzgyOTU@._V1_SX3001-193x288.jpg"
         let initial=1;
-        if(pictureURL!={}){
+        if(pictureURL!==""){
             Photo=pictureURL
         }
         
