@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar/NavBar';
 
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 //function App() {
   class App extends React.Component {
@@ -18,6 +19,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
       this.setState({ titulo: "Nuevo"  })
     }
     dentro del click llamamos a la funcion con this.cambiarTitulo
+    <ItemListContainer titulo={this.state.titulo}/>
     */
     constructor(){
       super();
@@ -29,7 +31,8 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
     return(
       <>
       <NavBar/>
-      <ItemListContainer titulo={this.state.titulo}/>
+      
+      <ItemDetailContainer/>
       </>
     );
   }  
