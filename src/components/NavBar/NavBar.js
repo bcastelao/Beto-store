@@ -12,6 +12,8 @@ const valor=React.useState("test");
 const setTitulo= valor[1]
 const titulo = valor[0] ===> todo en una linea seria:
 const [titulo, setTitulo] = React.useState("test")
+
+<button className="CartCTA my-transition"  onClick={cambiarItem}>Agregar Al Carrito</button>
 */  
     const [items, setItems] = React.useState(0)
     const cambiarItem = () =>{
@@ -47,7 +49,7 @@ const [titulo, setTitulo] = React.useState("test")
         
       </div>
       </header>
-      <button className="CartCTA my-transition"  onClick={cambiarItem}>Agregar Al Carrito</button>
+      
       </>
     );
   }
