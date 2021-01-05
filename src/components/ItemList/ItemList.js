@@ -16,7 +16,6 @@ import Loader from '../Loader/Loader'
                 setItem(itemDetails);
             })
         }, 3000)
-        console.log(items)
     })  
     return (
       <>
