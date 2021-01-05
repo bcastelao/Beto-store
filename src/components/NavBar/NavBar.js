@@ -2,6 +2,7 @@ import React from 'react';
 import './NavBar.css';
 import logo from '../../logo.png';
 import CartWidget from '../CartWidget/CartWidget';
+import { NavLink } from 'react-router-dom';
 const NavBar = () => {
 //function NavBar() {
 /*
@@ -23,7 +24,7 @@ const [titulo, setTitulo] = React.useState("test")
       <>
       <header>
       <div className="container"> 
-      <a href={"https://www.globant.com/"}><img src={logo} alt={"Hola"} className="logo" /></a> 
+      <NavLink to="/"><img src={logo} alt={"Hola"} className="logo" /></NavLink> 
       < CartWidget itemCount={items}/>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +33,7 @@ const [titulo, setTitulo] = React.useState("test")
           <div className="collapse navbar-collapse Menu" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href={"https://www.globant.com/"}><span></span>Home</a>
+                <NavLink className="nav-link" to="/"><span></span>Home</NavLink>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href={"https://www.globant.com/"}><span></span>Nosotros</a>
@@ -47,6 +48,7 @@ const [titulo, setTitulo] = React.useState("test")
           </div>
         </nav>        
         
+
       </div>
       </header>
       

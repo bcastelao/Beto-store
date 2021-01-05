@@ -1,5 +1,6 @@
 import React from 'react';
 import './Item.css';
+import { NavLink } from 'react-router-dom'
 //function ItemListContainer(props) {
 import ItemCount from '../ItemCount/ItemCount';
     const Item = ({id,title,description,price,pictureURL,stock}) => {
@@ -18,7 +19,8 @@ import ItemCount from '../ItemCount/ItemCount';
         <div className="ItemDesc col-12 my-transition">
         <p>{description}</p>
         <span>$ {price}</span>    
-        <button className="CartCTA my-transition">Ver Mas</button>
+
+        <NavLink to={`/item/${id}`} className="CartCTA my-transition">Ver Mas</NavLink>
         </div>
       </div>
 

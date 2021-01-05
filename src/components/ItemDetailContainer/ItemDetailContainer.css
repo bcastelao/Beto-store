@@ -4,6 +4,10 @@ section.ItemDetailContainer {
     float: left;
     position: relative;    
 }
+.ItemDetailContainer .container {
+    margin-top: 50px;
+    display: inline-block;
+}
 .ItemDetailContainer h2 {
     width: 100%;
     float: left;
@@ -11,32 +15,4 @@ section.ItemDetailContainer {
     background-color: #000000;
     padding: 8px;
     color: #ffffff;
-}
-.pitureBlock {
-    float: left;
-    text-align: left;
-}
-.descriptionBlock {
-    float: left;
-    text-align: left;
-}
-.pitureBlock img {
-    width: 100%;
-    max-width: 350px;
-}
-.descriptionBlock p {
-    margin: 10px;
-    text-align: left;
-    line-height: 1.8;
-    font-size: 1.1rem;
-    color: #454545;
-}
-.descriptionBlock .precio {
-    width: 100%;
-    float: left;
-    text-align: right;
-    background-color: #000000;
-    padding: 8px 15px;
-    color: #ffffff;
-    font-size: 2rem;
 }

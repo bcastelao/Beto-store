@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
@@ -29,11 +29,22 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
     }
   render(){  
     return(
-      <>
+      <BrowserRouter>
+      <main>
       <NavBar/>
-      
-      <ItemDetailContainer/>
-      </>
+      <Switch>
+
+        <Route path="/" exact>
+          <ItemListContainer titulo={this.state.titulo}/>
+        </Route>
+
+        <Route path="/item/:id">
+            <ItemDetailContainer/>
+        </Route>
+
+        </Switch>
+      </main>
+      </BrowserRouter>
     );
   }  
 }
