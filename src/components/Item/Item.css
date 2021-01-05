@@ -42,12 +42,14 @@
     font-size: 2rem;
     color: #ffffff;
 }
-.ItemDesc button.CartCTA{
+.ItemDesc button.CartCTA, .ItemDesc a.CartCTA{
     border: 1px solid #ffffff;
     padding: 8px 50px;
     color: #ffffff;
+    margin-top: 30px;
+    display: inline-block;
 }
-.ItemDesc button.CartCTA:hover{
+.ItemDesc button.CartCTA:hover, .ItemDesc button.CartCTA:hover{
     border: 1px solid #ffffff;
     padding: 8px 50px;
     color: #000000;
